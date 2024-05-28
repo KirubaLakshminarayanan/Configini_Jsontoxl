@@ -1,0 +1,21 @@
+2024-05-28 18:19:56,240 - INFO - ./input\batchjson.json conversion successful. Converted to ./output\batchjson_20240528181956.xlsx.
+2024-05-28 18:19:56,240 - INFO - Size of converted file: 6171 bytes
+2024-05-28 18:19:56,253 - INFO - ./input\batchjson_File1.json conversion successful. Converted to ./output\batchjson_File1_20240528181956.xlsx.
+2024-05-28 18:19:56,253 - INFO - Size of converted file: 5262 bytes
+2024-05-28 18:19:56,253 - ERROR - Skipping ./input\emptyfile.json: File is empty.
+2024-05-28 18:19:56,270 - INFO - ./input\equal key-value pairs.json conversion successful. Converted to ./output\equal key-value pairs_20240528181956.xlsx.
+2024-05-28 18:19:56,270 - INFO - Size of converted file: 6381 bytes
+2024-05-28 18:19:56,284 - INFO - ./input\Individual_json1.json conversion successful. Converted to ./output\Individual_json1_20240528181956.xlsx.
+2024-05-28 18:19:56,284 - INFO - Size of converted file: 5122 bytes
+2024-05-28 18:19:56,284 - ERROR - Invalid JSON format in ./input\invalidjson.json: Expecting value: line 1 column 1 (char 0)
+2024-05-28 18:19:56,296 - INFO - ./input\leafnode_jsonfile.json conversion successful. Converted to ./output\leafnode_jsonfile_20240528181956.xlsx.
+2024-05-28 18:19:56,296 - INFO - Size of converted file: 4906 bytes
+2024-05-28 18:19:56,308 - INFO - ./input\Sample_REST_addPerson_Request.json conversion successful. Converted to ./output\Sample_REST_addPerson_Request_20240528181956.xlsx.
+2024-05-28 18:19:56,308 - INFO - Size of converted file: 5619 bytes
+2024-05-28 18:19:56,325 - INFO - ./input\Sample_REST_addPerson_Response.json conversion successful. Converted to ./output\Sample_REST_addPerson_Response_20240528181956.xlsx.
+2024-05-28 18:19:56,326 - INFO - Size of converted file: 7358 bytes
+2024-05-28 18:19:56,341 - INFO - ./input\sample_unequalheaders.json conversion successful. Converted to ./output\sample_unequalheaders_20240528181956.xlsx.
+2024-05-28 18:19:56,341 - INFO - Size of converted file: 5720 bytes
+2024-05-28 18:19:56,358 - INFO - ./input\unequal_key_value_pairs.json conversion successful. Converted to ./output\unequal_key_value_pairs_20240528181956.xlsx.
+2024-05-28 18:19:56,360 - INFO - Size of converted file: 7221 bytes
+2024-05-28 18:19:56,360 - INFO - Completed 11 files. Conversion of JSON to Excel file failed for 2 file(s).

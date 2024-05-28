@@ -1,0 +1,9 @@
+root = tk.Tk()
+root.title("Multiple JSON to Excel Converter")
+root.geometry("400x200")
+
+file_label = tk.Label(root, text="Select JSON Files:")
+file_label.pack()
+
+file_entry = tk.Entry(root, width=50)
+file_entry.pack()

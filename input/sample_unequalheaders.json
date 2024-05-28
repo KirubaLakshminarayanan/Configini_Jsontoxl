@@ -1,0 +1,94 @@
+{
+  "records": [
+    {
+      "firstname": "John",
+      "lastname": "Doe",
+      "gender": "M",
+      "age": 35,
+      "emailIds": ["john.doe@example.com", "johndoe@gmail.com"],
+      "address": {
+        "streetAddress": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "postalcode": "12345"
+      },
+      "PhoneNumbers": [
+        {
+          "type": "home",
+          "number": "1234567890"
+        },
+        {
+          "type": "work",
+          "number": "9876543210"
+        }
+      ]
+    },
+    {
+      "firstname": "Jane",
+      "lastname": "Smith",
+      "gender": "F",
+      "age": 28,
+      "emailIds": ["jane.smith@example.com"],
+      "address": {
+        "streetAddress": "456 Elm St",
+        "city": "Othertown",
+        "state": "NY",
+        "postalcode": "54321"
+      },
+      "PhoneNumbers": [
+        {
+          "type": "home",
+          "number": "0987654321"
+        }
+      ]
+    },
+    {
+      "firstname": "Michael",
+      "lastname": "Johnson",
+      "gender": "M",
+      "age": 42,
+      "emailIds": ["michael.johnson@example.com", "mike@gmail.com", "mjohnson@yahoo.com"],
+      "address": {
+        "streetAddress": "789 Oak St",
+        "city": "Anycity",
+        "state": "TX",
+        "postalcode": "67890"
+      }
+    },
+    {
+      "firstname": "Emily",
+      "lastname": "Brown",
+      "gender": "F",
+      "age": 25,
+      "emailIds": ["emily.brown@example.com"],
+      "address": {
+        "streetAddress": "321 Pine St",
+        "city": "Sometown",
+        "state": "FL",
+        "postalcode": "13579"
+      }
+    },
+    {
+      "firstname": "William",
+      "lastname": "Wilson",
+      "gender": "M",
+      "emailIds": ["william.wilson@example.com", "willy@gmail.com"],
+      "address": {
+        "streetAddress": "567 Maple St",
+        "city": "Otherville",
+        "state": "WA",
+        "postalcode": "24680"
+      },
+      "PhoneNumbers": [
+        {
+          "type": "home",
+          "number": "5554443333"
+        },
+        {
+          "type": "work",
+          "number": "6667778888"
+        }
+      ]
+    }
+  ]
+}

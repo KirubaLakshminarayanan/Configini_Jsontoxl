@@ -1,0 +1,457 @@
+[
+  {
+    "name": {
+      "firstname": "Alice",
+      "lastname": "Smith"
+    },
+    "age": 25,
+    "address": {
+      "street": "123 Main Street",
+      "city": "London",
+      "country": "UK",
+      "postalCode": "SW1A 1AA"
+    },
+    "phoneNumbers": [
+      {"type": "home", "number": "123-456-7890"},
+      {"type": "work", "number": "987-654-3210"}
+    ],
+    "emails": ["alice@example.com", "alice.work@example.com"]
+  },
+  {
+    "name": {
+      "firstname": "Bob",
+      "lastname": "Johnson"
+    },
+    "age": 30,
+    "address": {
+      "street": "456 Elm Street",
+      "city": "New York",
+      "country": "USA",
+      "postalCode": "10001"
+    },
+    "phoneNumbers": [
+      {"type": "home", "number": "456-789-0123"},
+      {"type": "work", "number": "321-654-9870"}
+    ],
+    "emails": ["bob@example.com"]
+  },
+  {
+    "name": {
+      "firstname": "Charlie",
+      "lastname": "Brown"
+    },
+    "age": 35,
+    "address": {
+      "street": "789 Oak Avenue",
+      "city": "Los Angeles",
+      "country": "USA",
+      "postalCode": "90001"
+    },
+    "phoneNumbers": [
+      {"type": "home", "number": "789-012-3456"}
+    ],
+    "emails": ["charlie@example.com", "charlie.brown@example.com"]
+  },
+  {
+    "name": {
+      "firstname": "David",
+      "lastname": "Lee"
+    },
+    "age": 28,
+    "address": {
+      "street": "1011 Pine Road",
+      "city": "Sydney",
+      "country": "Australia",
+      "postalCode": "2000"
+    },
+    "phoneNumbers": [
+      {"type": "work", "number": "111-222-3333"}
+    ],
+    "emails": ["david@example.com"]
+  },
+  {
+    "name": {
+      "firstname": "Emily",
+      "lastname": "Davis"
+    },
+    "age": 32,
+    "address": {
+      "street": "1314 Cedar Lane",
+      "city": "Toronto",
+      "country": "Canada",
+      "postalCode": "M5J 2N8"
+    },
+    "phoneNumbers": [
+      {"type": "home", "number": "222-333-4444"},
+      {"type": "work", "number": "333-444-5555"}
+    ],
+    "emails": ["emily@example.com", "emily.davis@example.com"]
+  },
+  {
+    "name": {
+      "firstname": "Frank",
+      "lastname": "Wilson"
+    },
+    "age": 45,
+    "address": {
+      "street": "1516 Maple Street",
+      "city": "Paris",
+      "country": "France",
+      "postalCode": "75001"
+    },
+    "phoneNumbers": [
+      {"type": "home", "number": "444-555-6666"}
+    ],
+    "emails": ["frank@example.com", "frank.wilson@example.com"]
+  },
+  {
+    "name": {
+      "firstname": "Grace",
+      "lastname": "Anderson"
+    },
+    "age": 38,
+    "address": {
+      "street": "1718 Birch Boulevard",
+      "city": "Berlin",
+      "country": "Germany",
+      "postalCode": "10115"
+    },
+    "phoneNumbers": [
+      {"type": "home", "number": "555-666-7777"},
+      {"type": "work", "number": "666-777-8888"}
+    ],
+    "emails": ["grace@example.com"]
+  },
+  {
+    "name": {
+      "firstname": "Henry",
+      "lastname": "Thompson"
+    },
+    "age": 29,
+    "address": {
+      "street": "1920 Elm Avenue",
+      "city": "Moscow",
+      "country": "Russia",
+      "postalCode": "101000"
+    },
+    "phoneNumbers": [
+      {"type": "home", "number": "777-888-9999"}
+    ],
+    "emails": ["henry@example.com", "henry.thompson@example.com"]
+  },
+  {
+    "name": {
+      "firstname": "Ivy",
+      "lastname": "Clark"
+    },
+    "age": 27,
+    "address": {
+      "street": "2122 Oak Street",
+      "city": "Tokyo",
+      "country": "Japan",
+      "postalCode": "100-0001"
+    },
+    "phoneNumbers": [
+      {"type": "work", "number": "888-999-0000"}
+    ],
+    "emails": ["ivy@example.com"]
+  },
+  {
+    "name": {
+      "firstname": "Jack",
+      "lastname": "White"
+    },
+    "age": 33,
+    "address": {
+      "street": "2324 Pine Avenue",
+      "city": "Madrid",
+      "country": "Spain",
+      "postalCode": "28001"
+    },
+    "phoneNumbers": [
+      {"type": "home", "number": "999-000-1111"},
+      {"type": "work", "number": "000-111-2222"}
+    ],
+    "emails": ["jack@example.com", "jack.white@example.com"]
+  },
+  {
+    "name": {
+      "firstname": "Katie",
+      "lastname": "Green"
+    },
+    "age": 36,
+    "address": {
+      "street": "2526 Cedar Street",
+      "city": "Rome",
+      "country": "Italy",
+      "postalCode": "00100"
+    },
+    "phoneNumbers": [
+      {"type": "home", "number": "111-222-3333"}
+    ],
+    "emails": ["katie@example.com"]
+  },
+  {
+    "name": {
+      "firstname": "Liam",
+      "lastname": "Harris"
+    },
+    "age": 42,
+    "address": {
+      "street": "2728 Birch Lane",
+      "city": "Oslo",
+      "country": "Norway",
+      "postalCode": "0101"
+    },
+    "phoneNumbers": [
+      {"type": "home", "number": "222-333-4444"},
+      {"type": "work", "number": "333-444-5555"}
+    ],
+    "emails": ["liam@example.com", "liam.harris@example.com"]
+  },
+  {
+    "name": {
+      "firstname": "Mia",
+      "lastname": "Martin"
+    },
+    "age": 39,
+    "address": {
+      "street": "2930 Elm Road",
+      "city": "Athens",
+      "country": "Greece",
+      "postalCode": "105 63"
+    },
+    "phoneNumbers": [
+      {"type": "home", "number": "444-555-6666"}
+    ],
+    "emails": ["mia@example.com", "mia.martin@example.com"]
+  },
+  {
+    "name": {
+      "firstname": "Nathan",
+      "lastname": "Wilson"
+    },
+    "age": 31,
+    "address": {
+      "street": "3031 Oak Road",
+      "city": "Melbourne",
+      "country": "Australia",
+      "postalCode": "3000"
+    },
+    "phoneNumbers": [
+      {"type": "home", "number": "555-666-7777"},
+      {"type": "work", "number": "666-777-8888"}
+    ],
+    "emails": ["nathan@example.com", "nathan.wilson@example.com"]
+  },
+  {
+    "name": {
+      "firstname": "Olivia",
+      "lastname": "King"
+    },
+    "age": 34,
+    "address": {
+      "street": "3132 Cedar Road",
+      "city": "Toronto",
+      "country": "Canada",
+      "postalCode": "M4B 2T2"
+    },
+    "phoneNumbers": [
+      {"type": "home", "number": "777-888-9999"},
+      {"type": "work", "number": "888-999-0000"}
+    ],
+    "emails": ["olivia@example.com", "olivia.king@example.com"]
+  },
+  {
+    "name": {
+      "firstname": "Peter",
+      "lastname": "Brown"
+    },
+    "age": 37,
+    "address": {
+      "street": "3233 Pine Lane",
+      "city": "Berlin",
+      "country": "Germany",
+      "postalCode": "10119"
+    },
+    "phoneNumbers": [
+      {"type": "home", "number": "999-000-1111"}
+    ],
+    "emails": ["peter@example.com", "peter.brown@example.com"]
+  },
+  {
+    "name": {
+      "firstname": "Quinn",
+      "lastname": "Young"
+    },
+    "age": 41,
+    "address": {
+      "street": "3334 Elm Boulevard",
+      "city": "Madrid",
+      "country": "Spain",
+      "postalCode": "28015"
+    },
+    "phoneNumbers": [
+      {"type": "home", "number": "111-222-3333"},
+      {"type": "work", "number": "222-333-4444"}
+    ],
+    "emails": ["quinn@example.com"]
+  },
+  {
+    "name": {
+      "firstname": "Rachel",
+      "lastname": "Lopez"
+    },
+    "age": 26,
+    "address": {
+      "street": "3435 Birch Street",
+      "city": "Rome",
+      "country": "Italy",
+      "postalCode": "00186"
+    },
+    "phoneNumbers": [
+      {"type": "home", "number": "333-444-5555"}
+    ],
+    "emails": ["rachel@example.com", "rachel.lopez@example.com"]
+  },
+  {
+    "name": {
+      "firstname": "Samuel",
+      "lastname": "Garcia"
+    },
+    "age": 40,
+    "address": {
+      "street": "3536 Oak Boulevard",
+      "city": "Athens",
+      "country": "Greece",
+      "postalCode": "105 63"
+    },
+    "phoneNumbers": [
+      {"type": "work", "number": "444-555-6666"}
+    ],
+    "emails": ["samuel@example.com"]
+  },
+  {
+    "name": {
+      "firstname": "Taylor",
+      "lastname": "Martinez"
+    },
+    "age": 33,
+    "address": {
+      "street": "3637 Cedar Avenue",
+      "city": "Paris",
+      "country": "France",
+      "postalCode": "75001"
+    },
+    "phoneNumbers": [
+      {"type": "home", "number": "555-666-7777"},
+      {"type": "work", "number": "666-777-8888"}
+    ],
+    "emails": ["taylor@example.com", "taylor.martinez@example.com"]
+  },
+  {
+    "name": {
+      "firstname": "Uma",
+      "lastname": "Patel"
+    },
+    "age": 29,
+    "address": {
+      "street": "3738 Pine Road",
+      "city": "Berlin",
+      "country": "Germany",
+      "postalCode": "10115"
+    },
+    "phoneNumbers": [
+      {"type": "home", "number": "777-888-9999"}
+    ],
+    "emails": ["uma@example.com", "uma.patel@example.com"]
+  },
+  {
+    "name": {
+      "firstname": "Victor",
+      "lastname": "Cook"
+    },
+    "age": 31,
+    "address": {
+      "street": "3839 Birch Lane",
+      "city": "Madrid",
+      "country": "Spain",
+      "postalCode": "28001"
+    },
+    "phoneNumbers": [
+      {"type": "home", "number": "888-999-0000"},
+      {"type": "work", "number": "999-000-1111"}
+    ],
+    "emails": ["victor@example.com"]
+  },
+  {
+    "name": {
+      "firstname": "Wendy",
+      "lastname": "Stewart"
+    },
+    "age": 27,
+    "address": {
+      "street": "3940 Oak Street",
+      "city": "Rome",
+      "country": "Italy",
+      "postalCode": "00100"
+    },
+    "phoneNumbers": [
+      {"type": "home", "number": "111-222-3333"},
+      {"type": "work", "number": "222-333-4444"}
+    ],
+    "emails": ["wendy@example.com", "wendy.stewart@example.com"]
+  },
+  {
+    "name": {
+      "firstname": "Xavier",
+      "lastname": "Adams"
+    },
+    "age": 35,
+    "address": {
+      "street": "4041 Pine Lane",
+      "city": "Oslo",
+      "country": "Norway",
+      "postalCode": "0101"
+    },
+    "phoneNumbers": [
+      {"type": "home", "number": "333-444-5555"}
+    ],
+    "emails": ["xavier@example.com"]
+  },
+  {
+    "name": {
+      "firstname": "Yvonne",
+      "lastname": "Evans"
+    },
+    "age": 32,
+    "address": {
+      "street": "4142 Cedar Road",
+      "city": "Athens",
+      "country": "Greece",
+      "postalCode": "105 63"
+    },
+    "phoneNumbers": [
+      {"type": "work", "number": "444-555-6666"}
+    ],
+    "emails": ["yvonne@example.com", "yvonne.evans@example.com"]
+  },
+  {
+    "name": {
+      "firstname": "Zachary",
+      "lastname": "Mitchell"
+    },
+    "age": 30,
+    "address": {
+      "street": "4243 Elm Boulevard",
+      "city": "Berlin",
+      "country": "Germany",
+      "postalCode": "10115"
+    },
+    "phoneNumbers": [
+      {"type": "home", "number": "555-666-7777"},
+      {"type": "work", "number": "666-777-8888"}
+    ],
+    "emails": ["zachary@example.com"]
+  }
+]

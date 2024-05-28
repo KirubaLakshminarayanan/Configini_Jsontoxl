@@ -1,0 +1,18 @@
+{
+  "name": "John Doe",
+  "age": 30,
+  "city": "New York",
+  "skills": ["Python", "JavaScript", "SQL"],
+  "projects": [
+    {
+      "title": "Web Application",
+      "description": "Built a responsive web application using Angular framework.",
+      "technologies": ["Angular", "HTML", "CSS"]
+    },
+    {
+      "title": "Database Migration",
+      "description": "Migrated legacy database to PostgreSQL.",
+      "technologies": ["PostgreSQL", "Python"]
+    }
+  ]
+}

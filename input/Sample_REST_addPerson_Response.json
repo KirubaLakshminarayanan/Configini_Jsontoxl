@@ -1,0 +1,176 @@
+{"TCRMService": {
+   "@schemaLocation": "http://www.ibm.com/mdm/schema MDMDomains.xsd",
+   "ResponseControl":    {
+      "ResultCode": "SUCCESS",
+      "ServiceTime": "188",
+      "DWLControl":       {
+         "requesterName": "mdmadmin",
+         "requesterLanguage": "100",
+         "requesterLocale": "en",
+         "userRole": "mdm_admin",
+         "requesterTimeZone": "US/Eastern",
+         "requestID": "100005"
+      }
+   },
+   "TxResponse":    {
+      "RequestType": "addPerson",
+      "TxResult": {"ResultCode": "SUCCESS"},
+      "ResponseObject": {"TCRMPersonBObj":       {
+         "PartyId": "578658384096878459",
+         "DisplayName": "Ulla Eaton",
+         "PartyType": "P",
+         "CreatedDate": "2020-03-10 07:49:28.736",
+         "ClientStatusType": "1",
+         "ClientStatusValue": "Active",
+         "MandatorySearchDone": "Y",
+         "PartyLastUpdateDate": "2020-03-10 07:49:28.783",
+         "PartyLastUpdateUser": "mdmadmin",
+         "PartyLastUpdateTxId": "522558384096873688",
+         "PersonPartyId": "578658384096878459",
+         "PartyActiveIndicator": "Y",
+         "PersonLastUpdateDate": "2020-03-10 07:49:28.783",
+         "PersonLastUpdateUser": "mdmadmin",
+         "PersonLastUpdateTxId": "522558384096873688",
+         "TCRMPartyAddressBObj": [         {
+            "PartyAddressIdPK": "576258392933395473",
+            "PartyId": "578658384096878459",
+            "AddressId": "579158392933392344",
+            "AddressUsageType": "1",
+            "AddressUsageValue": "Primary Residence",
+            "StartDate": "2020-03-11 08:22:13.953",
+            "AddressGroupLastUpdateDate": "2020-03-11 08:22:13.953",
+            "AddressGroupLastUpdateUser": "mdmadmin",
+            "AddressGroupLastUpdateTxId": "153058392933387546",
+            "LocationGroupLastUpdateDate": "2020-03-11 08:22:13.953",
+            "LocationGroupLastUpdateUser": "mdmadmin",
+            "LocationGroupLastUpdateTxId": "153058392933387546",
+            "TCRMAddressBObj":             {
+               "AddressIdPK": "579158392933392344",
+               "AddressLineOne": "Vitae Street",
+               "City": "Calder",
+               "ZipPostalCode": "24261",
+               "ResidenceNumber": "5415",
+               "ProvinceStateType": "45",
+               "ProvinceStateValue": "PA",
+               "CountryType": "183",
+               "CountryValue": "Great Britain and N Ireland",
+               "AddressLastUpdateDate": "2020-03-11 08:22:13.922",
+               "AddressLastUpdateUser": "mdmadmin",
+               "AddressLastUpdateTxId": "153058392933387546",
+               "DWLStatus": {"Status": "0"}
+            },
+            "DWLStatus": {"Status": "0"}
+         }],
+         "TCRMPartyContactMethodBObj":          [
+                        {
+               "PartyContactMethodIdPK": "574058392933395474",
+               "PartyId": "578658384096878459",
+               "ContactMethodId": "577758392933395430",
+               "ContactMethodUsageType": "5",
+               "ContactMethodUsageValue": "Cellular",
+               "StartDate": "2020-03-11 08:22:13.953",
+               "ContactMethodGroupLastUpdateDate": "2020-03-11 08:22:13.953",
+               "ContactMethodGroupLastUpdateUser": "mdmadmin",
+               "ContactMethodGroupLastUpdateTxId": "153058392933387546",
+               "LocationGroupLastUpdateDate": "2020-03-11 08:22:13.953",
+               "LocationGroupLastUpdateUser": "mdmadmin",
+               "LocationGroupLastUpdateTxId": "153058392933387546",
+               "TCRMContactMethodBObj":                {
+                  "ContactMethodIdPK": "577758392933395430",
+                  "ReferenceNumber": "1-813-354-1347",
+                  "ContactMethodType": "1",
+                  "ContactMethodValue": "Telephone Number",
+                  "ContactMethodLastUpdateDate": "2020-03-11 08:22:13.953",
+                  "ContactMethodLastUpdateUser": "mdmadmin",
+                  "ContactMethodLastUpdateTxId": "153058392933387546",
+                  "DWLStatus": {"Status": "0"}
+               },
+               "DWLStatus": {"Status": "0"}
+            },
+                        {
+               "PartyContactMethodIdPK": "572958392933397071",
+               "PartyId": "578658384096878459",
+               "ContactMethodId": "579958392933397053",
+               "ContactMethodUsageType": "6",
+               "ContactMethodUsageValue": "Business Email",
+               "StartDate": "2020-03-11 08:22:13.969",
+               "ContactMethodGroupLastUpdateDate": "2020-03-11 08:22:13.969",
+               "ContactMethodGroupLastUpdateUser": "mdmadmin",
+               "ContactMethodGroupLastUpdateTxId": "153058392933387546",
+               "LocationGroupLastUpdateDate": "2020-03-11 08:22:13.969",
+               "LocationGroupLastUpdateUser": "mdmadmin",
+               "LocationGroupLastUpdateTxId": "153058392933387546",
+               "TCRMContactMethodBObj":                {
+                  "ContactMethodIdPK": "579958392933397053",
+                  "ReferenceNumber": "egaaet.laoreet@Aenean.ca",
+                  "ContactMethodType": "2",
+                  "ContactMethodValue": "Email Address",
+                  "ContactMethodLastUpdateDate": "2020-03-11 08:22:13.969",
+                  "ContactMethodLastUpdateUser": "mdmadmin",
+                  "ContactMethodLastUpdateTxId": "153058392933387546",
+                  "DWLStatus": {"Status": "0"}
+               },
+               "DWLStatus": {"Status": "0"}
+            }
+         ],
+         "TCRMPartyIdentificationBObj": [         {
+            "IdentificationIdPK": "576558392933392326",
+            "PartyId": "578658384096878459",
+            "IdentificationType": "1",
+            "IdentificationValue": "Social Security Number",
+            "IdentificationNumber": "8691558",
+            "StartDate": "2020-03-11 08:22:13.922",
+            "PartyIdentificationLastUpdateDate": "2020-03-11 08:22:13.922",
+            "PartyIdentificationLastUpdateUser": "mdmadmin",
+            "PartyIdentificationLastUpdateTxId": "153058392933387546",
+            "DWLStatus": {"Status": "0"}
+         }],
+         "TCRMAdminContEquivBObj":          {
+            "AdminContEquivIdPK": "575458392933392341",
+            "PartyId": "578658384096878459",
+            "AdminPartyId": "101124",
+            "AdminSystemType": "4",
+            "AdminSystemValue": "MDM",
+            "ContEquivLastUpdateDate": "2020-03-11 08:22:13.922",
+            "ContEquivLastUpdateUser": "mdmadmin",
+            "ContEquivLastUpdateTxId": "153058392933387546",
+            "DWLStatus": {"Status": "0"}
+         },
+         "TCRMPersonNameBObj": [         {
+            "PersonNameIdPK": "572158392933390775",
+            "GenerationType": "1",
+            "GenerationValue": "The First",
+            "NameUsageType": "1",
+            "NameUsageValue": "Legal",
+            "GivenNameOne": "Ullar",
+            "StdGivenNameOne": "Ullar",
+            "GivenNameTwo": "Brenit",
+            "StdGivenNameTwo": "Brenit",
+            "LastName": "Eassa",
+            "StdLastName": "Eassa",
+            "PersonPartyId": "578658384096878459",
+            "StartDate": "2020-03-11 08:22:13.906",
+            "PersonNameLastUpdateDate": "2020-03-11 08:22:13.906",
+            "PersonNameLastUpdateUser": "mdmadmin",
+            "PersonNameLastUpdateTxId": "153058392933387546",
+            "LastUpdatedBy": "mdmadmin",
+            "LastUpdatedDate": "2020-03-11 08:22:13.906",
+            "DWLStatus": {"Status": "0"}
+         }],
+         "AddPartyStatus": "3",
+         "SearchPartyDone": "Y",
+         "DWLStatus":          {
+            "Status": "5",
+            "DWLError":             {
+               "ComponentType": "99",
+               "ErrorMessage": "The data submitted already exists on the database; no update applied.",
+               "ErrorType": "DRECERR",
+               "LanguageCode": "100",
+               "ReasonCode": "603",
+               "Severity": "5",
+               "SeverityValue": "Warning"
+            }
+         }
+      }}
+   }
+}}
