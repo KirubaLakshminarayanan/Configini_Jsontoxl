@@ -86,8 +86,9 @@ def convert_to_excel(file_paths, output_dir, sheet_name):
                 # Get the headers in the order of keys from the first record
                 headers = list(flattened_records[0].keys())
 
-                output_file = os.path.join(output_dir, os.path.basename(file_path)[:-5] + '_' + datetime.now(ist_timezone).strftime(
-                    "%Y%m%d%H%M%S") + '.xlsx')  # Convert datetime to Indian Standard Time
+                output_file = os.path.join(output_dir,
+                                           os.path.basename(file_path)[:-5] + '_' + datetime.now(ist_timezone).strftime(
+                                               "%Y%m%d%H%M%S") + '.xlsx')  # Convert datetime to Indian Standard Time
                 wb = Workbook()
                 ws = wb.active
                 ws.title = sheet_name

@@ -59,7 +59,7 @@ def convert_to_excel(flattened_data, output_file, sheet_name='Sheet1'):
         df.to_excel(writer, index=False, sheet_name=sheet_name)
 
         # Ensure the created sheet is set as active and visible
-        workbook = writer.book
+        workbook = writer
         worksheet = writer.sheets[sheet_name]
         workbook.active = workbook.index(worksheet)
 
