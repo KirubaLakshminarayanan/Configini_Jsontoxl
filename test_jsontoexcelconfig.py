@@ -11,7 +11,6 @@ from jsontoexcelconfig import flatten_json, convert_to_excel
 pytestmark = pytest.mark.filterwarnings("ignore::DeprecationWarning")  # Ignore deprecation warnings globally
 
 
-
 @pytest.fixture(autouse=True)
 def suppress_warnings():
     with warnings.catch_warnings():
@@ -78,7 +77,6 @@ def test_flatten_json_valid():
     assert flatten_json(data) == {"name": "John", "age": 30}
 
 
-
 def test_flatten_json_invalid():
     data = "invalid_json"
     assert flatten_json(data) == {}
@@ -95,7 +93,6 @@ def test_flatten_json_list():
         "person_0_name": "John", "person_0_age": 30,
         "person_1_name": "Alice", "person_1_age": 25
     }
-
 
 
 def test_flatten_json_individual():
