@@ -149,18 +149,30 @@ def test_flatten_json_boolean_value():
 
 
 @pytest.mark.filterwarnings("ignore::DeprecationWarning")
-def test_convert_to_excel(tmpdir):
-    data = {"name": "John", "age": 30, "city": "New York"}
+def test_convert_to_excel():
+    data = {"name": "Sugumar", "age": 30, "city": "New York"}
     flattened_data = flatten_json(data)
-    output_file = str(tmpdir.join('output.xlsx'))
-    convert_to_excel(flattened_data, output_file, sheet_name='Sheet1')
+
+    # Specify a known location
+    desktop_path = os.path.join(os.path.expanduser("~"), "Desktop", "output.xlsx")
+
+    convert_to_excel(flattened_data, desktop_path, sheet_name='Sheet1')
 
     # Read the Excel file to verify its content
-    df = pd.read_excel(output_file)
+    df = pd.read_excel(desktop_path)
     expected_data = {
-        "name": ["John"],
+        "name": ["Sugumar"],
         "age": [30],
         "city": ["New York"]
     }
     expected_df = pd.DataFrame(expected_data)
+
+    # Print DataFrames for verification
+    print("Generated DataFrame:")
+    print(df)
+
+    print("\nExpected DataFrame:")
+    print(expected_df)
+
     pd.testing.assert_frame_equal(df, expected_df)
+    print(f"Excel file saved at: {desktop_path}")

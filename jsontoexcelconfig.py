@@ -40,18 +40,20 @@ def flatten_json(data, parent_key='', sep='_'):
 
 # Function to convert JSON data to Excel
 def convert_to_excel(file_paths, output_dir, sheet_name):
+    # Logging Configuration
     log_filename = os.path.join(logs_dir, f"errors_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log")
     configure_logging(log_filename)  # Configure logging with a new log file name
+    # Initialization
     total_files = len(file_paths)
     success_count = 0  # Track the number of successful conversions
 
     # Get the Indian Standard Timezone
     ist_timezone = pytz.timezone('Asia/Kolkata')
-
+# Processing each file
     for file_path in tqdm.tqdm(file_paths, desc="Converting JSON to Excel"):
         # Add a delay to simulate processing time
         time.sleep(0.1)  # Adjust the delay time as needed
-
+# File Format and Size Validation
         if not file_path.endswith('.json'):
             logging.error(f"Skipping {file_path}: Invalid file format. Please provide a JSON file.")
             continue
@@ -59,7 +61,7 @@ def convert_to_excel(file_paths, output_dir, sheet_name):
         if os.path.getsize(file_path) == 0:
             logging.error(f"Skipping {file_path}: File is empty.")
             continue
-
+# Reading Json File
         try:
             with open(file_path, 'r') as json_file:
                 try:
@@ -68,7 +70,7 @@ def convert_to_excel(file_paths, output_dir, sheet_name):
                     error_message = f"Invalid JSON format in {file_path}: {str(e)}"
                     logging.error(error_message)
                     continue
-
+# Checking Json Format. Check Json data is dict or list.If it's dict convert to list and if it's list use as it is.
                 if isinstance(data, dict):
                     records = [data]
                 elif isinstance(data, list):
@@ -76,23 +78,23 @@ def convert_to_excel(file_paths, output_dir, sheet_name):
                 else:
                     logging.error(f"Skipping {file_path}: Invalid JSON data format.")
                     continue
-
+# Checking For empty records
                 if not records:
                     logging.error(f"No records found in {file_path}.")
                     continue
-
+# Flattening Json Records
                 flattened_records = [flatten_json(record) for record in records]
 
                 # Get the headers in the order of keys from the first record
                 headers = list(flattened_records[0].keys())
-
+# Creating O/P File name and Excel workbook
                 output_file = os.path.join(output_dir,
                                            os.path.basename(file_path)[:-5] + '_' + datetime.now(ist_timezone).strftime(
                                                "%Y%m%d%H%M%S") + '.xlsx')  # Convert datetime to Indian Standard Time
                 wb = Workbook()
                 ws = wb.active
                 ws.title = sheet_name
-
+# Writing headers and data to Excel and Save the Excel File.
                 ws.append(headers)
 
                 for record in flattened_records:
@@ -108,7 +110,7 @@ def convert_to_excel(file_paths, output_dir, sheet_name):
                 success_count += 1  # Increment the success count
         except Exception as e:
             logging.error(f"{file_path} conversion failed! Error: {str(e)}")
-
+# Logging Summary
     failed_files_count = total_files - success_count
     if failed_files_count == 0:
         logging.info(f"Completed {total_files} files. Conversion of JSON to Excel file is successful.")
@@ -140,6 +142,6 @@ def main():
     else:
         logging.error("No JSON files found in the input directory.")
 
-
+# Entry Point
 if __name__ == "__main__":
     main()
